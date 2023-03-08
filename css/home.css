@@ -1,0 +1,200 @@
+/*Intro*/
+section{
+    margin: 80px;
+}
+
+.banner{
+    width: 100%;  
+}
+
+h1 {
+    padding: 10px 10px 5px 10px;
+    text-transform: uppercase;  
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+
+
+/*Sobre*/
+.title_1{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.linha_1{
+    border: 3px solid var(--cor-amarelo);
+    width: 210px;
+    margin: 0 auto;
+}
+
+.sobre_texto_1{
+    text-align: justify;
+    text-justify: distribute;
+    text-align-last: center;
+    margin: 20px;
+    
+}
+
+.sobre_texto_2{
+    text-align: justify;
+    margin: 5px 20px 20px 20px;
+    text-justify: distribute;
+    text-align-last: center;
+}
+
+.sobre-imagem{
+    margin-top: 150px;
+    width: 90%;
+}
+
+.title_2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+
+/*trabalho*/
+
+.title_3{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.linha_2{
+    border: 3px solid var(--cor-verde);
+    width: 350px;
+    margin: 0 auto;
+}
+
+.embed-responsive{
+    margin: 30px;
+    border: 6px solid var(--cor-verde);
+}
+
+
+/*contato*/
+
+.title_4{
+       font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 80px; 
+}
+
+.linha_3{
+    border: 3px solid var(--cor-vermelho);
+    width: 490px;
+    margin: 0 auto;  
+}
+
+
+/*cards*/
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.card{
+    max-width: 250px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--cor-vermelho);
+    border-left: 1px solid var(--cor-vermelho);
+    border-right: 1px solid var(--cor-vermelho);
+    margin-top: 30px;
+    padding: 10px;
+    
+}
+
+.cards-container .card:nth-of-type{
+    border-right: 1px solid var(--cor-vermelho);  
+}
+
+.card h3{
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.card img{
+    width: 100%;
+   
+}
+
+.card p{
+    margin: 15px;
+    max-width: 250px;
+}
+
+.card button{
+    margin: 15px;
+    max-width: 200px;
+    
+}
+
+
+.info {
+    text-decoration: none;
+    color: white;}
+    
+.info:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* RODAPÉ */
+footer{
+    color: white;
+    background-color: var(--cor-vermelho);
+}
+
+footer p{
+    padding: 10px;
+    margin: 10px 10px 0;
+}
+
+
+
+@media only screen and (max-width: 770px){
+    
+.sobre-imagem{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

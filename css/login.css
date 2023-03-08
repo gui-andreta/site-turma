@@ -1,0 +1,65 @@
+main{
+    margin-top: 100px;
+}
+
+.banner{
+    width: 40%;
+    margin-bottom: 30px;
+    
+}
+
+fieldset{
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid #d7dbdd;
+    border-radius: 8px;
+    padding: 20px 0 0 0;
+}
+
+legend{
+    font-weight: bold;
+    margin: 0 auto;
+    border-radius: 5px 5px 0px 0px;
+    width: 200px;
+    border-left: 1px solid #d7dbdd;
+    border-top: 1px solid #d7dbdd;
+    border-right: 1px solid #d7dbdd;  
+}
+
+input{
+ border-radius: 5px;  
+ margin: 5px;
+ border: 1px solid #ccc;
+ box-shadow: inset 1px 1px 4px #ccc;
+ padding: 5px;
+}
+
+i{
+    color: var(--cor-laranja);
+}
+
+
+.select{
+    color: aqua;
+}
+
+/*reponsivo*/
+
+@media only screen and (max-width: 600px){
+    
+    .banner{
+        width: 80%;
+    }
+    
+ 
+@media only screen and (max-width: 400px){
+    
+    fieldset{
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid #d7dbdd;
+    border-radius: 8px;
+    padding: 20px 0 0 0;
+    }
+}
+

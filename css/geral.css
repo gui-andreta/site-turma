@@ -1,0 +1,104 @@
+/* GERAL */
+
+:root{
+    --cor-vermelho: #FF8788;
+    --cor-laranja: #FFB39B;
+    --cor-amarelo: #FED19A;
+    --cor-do-texto: #857E74;
+    --cor-azul: #01cdce;
+    --cor-verde: #01c3a9;
+    --cor-de-fundo: #FEFBF2;
+}
+
+
+body{
+    margin: auto;
+    text-align: center;
+    font-family: sweet-sans-pro, sans-serif;
+    color: var(--cor-do-texto);
+    background-color: var(--cor-de-fundo);   
+}
+
+
+section{
+    margin: 50px;
+}
+
+/* CABEÇALHO */
+
+.bg-light {
+    background-color: var(--cor-de-fundo) !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--cor-do-texto);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+ .navbar-light .navbar-nav .nav-link:hover{
+    box-shadow: 2px 2px 3px;
+    opacity: 0.8;
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+   box-shadow: 2px 2px ;
+    opacity: 0.8; 
+}
+
+.dropdown-menu{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid var(--cor-do-texto);
+    min-width: 13rem;
+}
+
+.cadastro{
+    color: var(--cor-do-texto);
+    text-decoration: none;
+}
+
+.cadastro:hover{
+    color: var(--cor-vermelho);
+    text-decoration: none;
+}
+
+.logs{
+    color: var(--cor-do-texto);
+    text-decoration: none;
+}
+
+.logs:hover{
+    color: var(--cor-vermelho);
+    text-decoration: none;
+}
+
+
+/* BOTÕES */
+
+button{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid #EA9B82;
+    border-radius: 7px;
+    background-color: var(--cor-laranja);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    color: white;
+    border: 1px solid #D97855;
+    border-radius: 7px;
+    cursor: pointer;
+    background: var(--cor-vermelho);
+}
+
+
+.navbar-light .navbar-toggler:hover{
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px;
+}

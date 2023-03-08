@@ -1,0 +1,26 @@
+/* Mensagem */
+img{
+    margin-top: 60px;
+}
+
+
+.errado{
+    color: var(--cor-vermelho);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.correto{
+    color: var(--cor-verde);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,180 @@
+/* GERAIS */
+
+*{
+    padding: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    background-color: #FEFBF2;
+    color: #857E74;
+}
+
+.selected{
+    box-shadow: 5px 5px 7px;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* CABEÇALHO DO SITE */
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li{
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+header a{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #857E74;
+    transition: 170ms;
+}
+
+header a:hover{
+    box-shadow: 5px 5px 7px;
+}
+
+
+
+/* SLIDER */
+
+.slider-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider-top div{
+    width: 50%;
+}
+
+/* SOBRE */
+
+article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+article section{
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.sobre{
+    background-color: #FF8788;
+}
+
+.curso{
+    background-color: #FFB39B;;
+}
+
+.fazemos{
+    background-color: #FED19A;
+}
+
+article figure{
+    width: 100%;
+}
+
+article h2{
+    color: #FEFEFE;
+}
+
+article h3{
+    margin: 0 40%;
+    border-bottom: 5px solid #FED19A;
+}
+
+/* PROJETOS */
+
+.work{
+    text-align: center;
+}
+
+.slider-trab{
+    margin: 0 auto;
+    width: 70vw;
+    border: 10px solid green;
+}
+
+/* PÁGINA DE CONTATO INDIVIDUAL */
+.container{
+    display: flex;
+    max-width: inherit;
+    height: auto;
+    margin: 5px solid black;
+}
+/* CARD DO CONTATO */
+
+.card_contato{
+    display: flex;
+    margin: auto;
+    padding: 0;
+}
+.avatar_card_contato{
+    margin: 0;
+    padding: 0;
+}
+
+.informacoes_card_contato{
+    display: table;
+    text-align: center;
+    max-width: inherit;
+}
+
+
+
+.logo_rede_social{
+    margin: 0 10px 0 10px;
+}
+
+.title_card_contato{
+    display: table-row;
+    width: inherit;
+    font-size: 25pt;
+    margin-bottom: 5px;
+    
+}
+idade_card_contato{
+    display: table-row;
+    font-size: 15pt;
+    margin-top: 0;
+}
+
+.text_card_contato{
+    display: table-row;
+    font-size: 15pt;
+    margin: auto;
+}
+
+.divisor_horizontal_card_contato{
+    color: #857E74;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CARD DE SKILSS, ABAIXO DO CARD DE INFORMAÇÕES */
+.card_skills{
+    display: table;
+}
+
+
+.container_skills{
+    display: table;
+}
+
+.title_skills_h2{
+    background-color: #01c3a9;
+    color: white;
+}
